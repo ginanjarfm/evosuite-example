@@ -11,13 +11,13 @@ This project is an example of Evosuite IntelliJ IDEA projects . The detail can b
 
 ### Maven
 
-[Maven Project](https://github.com/ginanjarfm/evosuite-example/EvosuiteMaven)
+[Maven Project](https://github.com/ginanjarfm/evosuite-example/tree/master/EvosuiteMaven)
 
 <img src="https://raw.githubusercontent.com/ginanjarfm/evosuite-example/master/media/maven-dialog.png"/>
 
 ### Gradle
 
-[Gradle Project](https://github.com/ginanjarfm/evosuite-example/EvosuiteGradle)
+[Gradle Project](https://github.com/ginanjarfm/evosuite-example/tree/master/EvosuiteGradle)
 
 <img src="https://raw.githubusercontent.com/ginanjarfm/evosuite-example/master/media/gradle-dialog.png"/>
 
