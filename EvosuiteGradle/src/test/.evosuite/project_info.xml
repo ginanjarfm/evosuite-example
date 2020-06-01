@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project>
+    <totalNumberOfTestableClasses>1</totalNumberOfTestableClasses>
+    <cut>
+        <fullNameOfTargetClass>org.example.Foo_ESTest_scaffolding</fullNameOfTargetClass>
+        <fullNameOfTestSuite>org.example.Foo_ESTest_scaffolding_ESTest</fullNameOfTestSuite>
+        <generation>
+            <id>0</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>180</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>/Users/ginanjar/IdeaProjects/EvosuiteGradle/src/test/.evosuite/tmp_2020_06_02_00_33_04/logs/org.example.Foo_ESTest_scaffolding/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/ginanjar/IdeaProjects/EvosuiteGradle/src/test/.evosuite/tmp_2020_06_02_00_33_04/logs/org.example.Foo_ESTest_scaffolding/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/ginanjar/IdeaProjects/EvosuiteGradle/src/test/.evosuite/tmp_2020_06_02_00_33_04/logs/org.example.Foo_ESTest_scaffolding/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/ginanjar/IdeaProjects/EvosuiteGradle/src/test/.evosuite/tmp_2020_06_02_00_33_04/logs/org.example.Foo_ESTest_scaffolding/std_out_MASTER.log</std_out_MASTER>
+        </generation>
+        <generation>
+            <id>1</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>180</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>/Users/ginanjar/IdeaProjects/EvosuiteGradle/src/test/.evosuite/tmp_2020_06_02_00_57_18/logs/org.example.Foo_ESTest_scaffolding/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/ginanjar/IdeaProjects/EvosuiteGradle/src/test/.evosuite/tmp_2020_06_02_00_57_18/logs/org.example.Foo_ESTest_scaffolding/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/ginanjar/IdeaProjects/EvosuiteGradle/src/test/.evosuite/tmp_2020_06_02_00_57_18/logs/org.example.Foo_ESTest_scaffolding/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/ginanjar/IdeaProjects/EvosuiteGradle/src/test/.evosuite/tmp_2020_06_02_00_57_18/logs/org.example.Foo_ESTest_scaffolding/std_out_MASTER.log</std_out_MASTER>
+        </generation>
+    </cut>
+</Project>

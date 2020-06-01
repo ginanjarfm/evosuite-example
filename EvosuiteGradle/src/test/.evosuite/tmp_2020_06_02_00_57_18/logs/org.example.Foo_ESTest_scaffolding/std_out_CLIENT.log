@@ -1,0 +1,91 @@
+* Starting client
+* Connecting to master process on port 19719
+* Analyzing classpath: 
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/cldrdata.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/dnsns.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/jaccess.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/localedata.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/nashorn.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/sunec.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/zipfs.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/management-agent.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/lib/dt.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/lib/jconsole.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/lib/sa-jdi.jar
+  - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/lib/tools.jar
+  - /Users/ginanjar/IdeaProjects/EvosuiteGradle/build/classes/java/test
+  - /Users/ginanjar/IdeaProjects/EvosuiteGradle/build/classes/java/main
+  - /Users/ginanjar/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar
+  - /Users/ginanjar/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class org.example.Foo_ESTest_scaffolding
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 00:57:23.734 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/ginanjar/IdeaProjects/EvosuiteGradle/src/test/.evosuite/evosuite-seeds/org.example.Foo_ESTest_scaffolding.seed
+* Loaded 0 tests from /Users/ginanjar/IdeaProjects/EvosuiteGradle/src/test/.evosuite/evosuite-seeds/org.example.Foo_ESTest_scaffolding.seed
+* Total number of test goals: 
+  - Line 51
+  - Branch 8
+  - Exception 0
+  - MutationFactory 36
+  - Output 0
+  - Method 2
+  - MethodNoException 2
+  - CBranchFitnessFactory 8
+* Using seed 1591034240211
+* Starting evolution
+* Search finished after 97s and 10706 generations, 76701 statements, best individual has fitness: 43.973684210526315
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 27%
+* Total number of goals: 51
+* Number of covered goals: 14
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 25%
+* Total number of goals: 8
+* Number of covered goals: 2
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100% (no goals)
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 50%
+* Total number of goals: 36
+* Number of covered goals: 18
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 25%
+* Total number of goals: 8
+* Number of covered goals: 2
+* Generated 2 tests with total length 2
+* Resulting test suite's coverage: 66% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 21%
+* Compiling and checking tests
+* Writing JUnit test case 'Foo_ESTest_scaffolding_ESTest' to /Users/ginanjar/IdeaProjects/EvosuiteGradle/src/test/.evosuite/tmp_2020_06_02_00_57_18/tests
+* Done!
+
